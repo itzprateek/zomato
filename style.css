@@ -1,0 +1,71 @@
+/* common elements */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hr1    {
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+/* navigation bar  */
+
+#navbar{
+    display: flex;
+    background-color: rgb(80, 17, 17);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+}
+#logo{
+    width: 200px;
+  
+}
+
+
+
+
+
+#logoimg{
+    height: 60px;
+    margin: 12px 40px;
+    border-radius: 25px;
+}
+
+/* navigationlink */
+
+#navlinks{
+    width: 750px;
+    padding-left: 150px;
+}
+
+
+#links{
+    display: flex;
+    list-style: none;
+
+}
+
+.linkitem{
+}
+
+.linka{
+    padding:10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+
+#links a:hover{
+    background-color: azure;
+    color: rgb(169, 169, 169);
+    transition: 1s;
+}
+
+   
+
+
