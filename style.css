@@ -2,7 +2,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
 .hr1    {
     border: 2px;
     border-color: red;
@@ -35,10 +43,12 @@
 
 #navbar{
     display: flex;
-    background-color: rgba(53, 198, 239, 0.535);
+    background-color: rgba(255, 111, 0, 0.535);
     height: 80px;
     align-items: center;
     font-family: 'Abril Fatface', cursive;
+    position: sticky;
+    top: 0px;
 }
 
 
@@ -134,10 +144,36 @@ color: aqua;
 
 #facilities{
     display: flex;
-    justify-content: space-evenly;
-    height: 300px;
-    align-items: center;
+    justify-content:space-around;
+    height: 400px;
+    /* align-items: center; */
     background-color: rgb(80, 35, 35);
+}
+
+.facilityclass{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#facilities img{
+height: 150px;
+margin-top: 25px;
+
+}
+.facilitypara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    font-weight: bolder;
+
+}
+.facilitypara2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin: auto;
+
 }
 
 /* facilities css ends */
